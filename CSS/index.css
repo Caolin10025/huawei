@@ -1,0 +1,76 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    margin: 6.93vw auto 0;
+    width: 91.07vw;
+    height: 5.07vw;
+    background-color: aqua;
+}
+
+header ul {
+    width: 91.07vw;
+    height: 5.07vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 4.8vw;
+    color: #000;
+}
+
+header ul .icon-Arrow-left {
+    font-size: 4.8vw;
+}
+
+header ul .icon-sousuo1 {
+    font-size: 4vw;
+    color: #404040;
+}
+
+header ul li:nth-child(3) {
+    font-size: 4vw;
+}
+
+nav .recommend {
+    margin: 6.27vw auto 2.53vw;
+    display: flex;
+    justify-content: space-between;
+    width: 91.33vw;
+    height: 4.13vw;
+    font-size: 4vw;
+    color: #7c7c7c;
+}
+
+nav .recommend li:nth-child(1) {
+    color: #61dfb7;
+}
+
+nav .recommend li:nth-child(6) .icon-gengduo {
+    font-size: 4vw;
+}
+
+.independent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 54.8vw;
+    background-color: #61dfb7;
+    margin-top: 2.53vw;
+    font-size: 3.2vw;
+}
+
+.independent .inde-img {
+    /* position: relative;
+    top: 4.67vw; */
+    width: 91.6vw;
+    height: 42.8vw;
+    /* margin-top: 4.67vw; */
+    background-color: black;
+}
+
+.independent .inde-img img {
+    width: 100%;
+    height: 100%;
+}
